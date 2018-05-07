@@ -43,7 +43,7 @@ end
 def add_s(array)
   array.each do |a|
     unless a == array[1]
-      a << s
+      a << "s"
     end
   end
 end

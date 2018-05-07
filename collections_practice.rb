@@ -40,5 +40,9 @@ def sum_array(array)
   array.inject {|sum, n| sum + n }
 end
 
-def add_s()
+def add_s(array)
+  array.each do |a|
+    unless a == array[1]
+      a << s
+    end
 end

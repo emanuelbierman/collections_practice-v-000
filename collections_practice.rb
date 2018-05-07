@@ -45,4 +45,5 @@ def add_s(array)
     unless a == array[1]
       a << s
     end
+  end
 end
